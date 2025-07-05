@@ -1,330 +1,249 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abode Emmanuel (My Portfolio)</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <title>Abode Emmanuel | Creative Professional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-/* Reset some default styles */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
 
-/* Set a background color and text color for the entire page */
-body {
-    background-color: #f0f0f0;
-    color: #333;
-    font-family: Arial, sans-serif;
-}
-
-/* Style the header */
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 36px;
-}
-
-header p {
-    font-size: 18px;
-}
-
-/* Style the navigation menu */
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-.port{
-    background-color: #fff; /* Background color for the section */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 8px; /* Add rounded corners to the section */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-}
-#portfolio{
-    background-color: #fff; /* Background color for the section */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 8px; /* Add rounded corners to the section */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-}
-.cont{
-    background-color: #fff; /* Background color for the section */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 8px; /* Add rounded corners to the section */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-}
-#contact{
-    background-color: #fff; /* Background color for the section */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 8px; /* Add rounded corners to the section */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-}
-/* Style the sections */
-section {
-    padding: 40px;
-}
-
-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-/* Style the portfolio projects */
-.project {
-    margin-bottom: 40px;
-}
-
-.project img {
-    max-width: 100%;
-    height: auto;
-}
-
-.project h3 {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-}
-/* Style the About Me section */
-#about {
-    background-color: #fff; /* Background color for the section */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 8px; /* Add rounded corners to the section */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-    text-align: justify;
-}
-
-#about h2 {
-    font-size: 24px; /* Increase the font size for section headings */
-    color: #333; /* Text color */
-    margin-bottom: 20px; /* Spacing below the heading */
-}
-
-#about p {
-    font-size: 16px; /* Font size for the content */
-    color: #666; /* Text color */
-    line-height: 1.6; /* Line height for better readability */
-}
-
-/* Add any additional styles as needed */
-.back{
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border-radius: 10PX;
-}
-.Percent1{
-    text-align: right;
-    width: 70%;
-    background-color: Orange;
-    border-radius: 20px
-}
-.pe{
-    padding: 3px;
-    color: white;
-}
-.Percent2{
-    text-align: right;
-    width: 50%;
-    background-color: skyblue;
-    border-radius: 20px
-}
-.pe2{
-    padding: 3px;
-    color: white;
-}
-.Percent3{
-    text-align: right;
-    width: 80%;
-    background-color: gray;
-    border-radius: 20px
-}
-.Percent4{
-    text-align: right;
-    width: 95%;
-    background-color: red;
-    border-radius: 20px
-}
-.Percent5{
-    text-align: right;
-    width: 90%;
-    background-color: blue;
-    border-radius: 20px
-}
-.Percent6{
-    text-align: right;
-    width: 100%;
-    background-color: green;
-    border-radius: 20px
-}
-.Percent7{
-    text-align: right;
-    width: 60%;
-    background-color: purple;
-    border-radius: 20px
-}
-.Percent8{
-    text-align: right;
-    width: 50%;
-    background-color: brown;
-    border-radius: 20px
-}
-.Percent9{
-    text-align: right;
-    width: 70%;
-    background-color: yellow;
-    border-radius: 20px
-}
-.Percent10{
-    text-align: right;
-    width: 65%;
-    background-color: lightgreen;
-    border-radius: 20px
-}
-.Percent11{
-    text-align: right;
-    width: 25%;
-    background-color: yellow;
-    border-radius: 20px
-}
-</style>
 <body>
-    <header>
-        <h2>Abode Emmanuel</h2>
-        <p>Web Developer</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Abode Emmanuel</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
     </nav>
 
-    <section id="about">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Abode Emmanuel</span></h1>
+            <p class="hero-subtitle">Aspiring Software Engineer <b class="highlight">C# | .NET</b></p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/dp.png" alt="Abode Emmanuel">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
         <h2>About Me</h2>
-<section id="about">
-    <p>Hello, I'm Abode Emmanuel Oluwasemilore, a passionate and creative web developer with a strong commitment to crafting beautiful and user-friendly websites.</p>
-    
-    <p>With 2 years of experience in web development, I've had the privilege of working on a diverse range of projects, from small business websites to large-scale web applications. I thrive on turning ideas into digital realities, and I'm constantly seeking ways to push the boundaries of what's possible on the web.</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm <em>Abode Emmanuel Semilore</em>, an enthusiastic and self-driven learner from Nigeria,
+                    currently pursuing a <strong>B.Sc. in Mathematics</strong> at <strong>Lagos State University of
+                        Science and Technology.</strong></p>
 
-    <p>My expertise includes front-end and back-end development, responsive web design, and the latest web technologies. I'm dedicated to staying up-to-date with industry trends and best practices to deliver top-notch solutions for my clients.</p>
+                <p>My journey into tech began in <b>2021</b>, and I've been passionately exploring the world of software
+                    development ever since. I'm currently enrolled in the <b></b>Full Stack Development</b> program on <b>freeCodeCamp</b>
+                    and actively learning <b>C# professional course</b>, with plans to specialize in full-stack and
+                    mobile app development, and eventually explore game development.</p>
 
-    <p>When I'm not coding, you can often find me exploring new technologies, experimenting with side projects, or enjoying the great outdoors. I believe that continuous learning is key to success in the ever-evolving field of web development.</p>
+                <p>While I don't have any public projects yet, I'm focused on building a solid foundation in
+                    programming, clean code practices, and responsive web design. My LinkedIn serves as a timeline of my
+                    growth, where I share updates on what I'm learning.</p>
 
-    <p>Thank you for visiting my portfolio. I look forward to the opportunity to collaborate with you on your next web project. Feel free to get in touch!</p>
-</section>
-    </section>
+                <p>I'm committed to lifelong learning, always curious, and eager to contribute to real-world projects as
+                    I continue to grow. This portfolio represents my stepping stone into the tech world—and there's so
+                    much more ahead.</p>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <!-- Add your portfolio projects here -->
-        <div class="port">
-        <div class="project">
-            <img src="pic.jpeg">
-  	    <img src="picc.jpeg">
-            <h3>Sound Engineer</h3>
-            <p><b>Sound</b></p>
-            <div class="back">
-            Mixing
-            <div class="Percent8">
-             <p class="pe">50%</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="number">4+</span>
+                        <span class="label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">0</span>
+                        <span class="label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">0</span>
+                        <span class="label">Happy Clients</span>
+                    </div>
+                </div>
             </div>
-            Setting
-            <div class="Percent9">
-             <p class="pe2">70%</p>
-            </div>
-            Audio Editing
-            <div class="Percent10">
-             <p class="pe2">65%</p>
-            </div>
-            </div>
-            </div>
-        <div class="project">
-	    <img src="picccc.jpg" >
-            <img src="piccc.webp" >
-            <h3>Web Developer</h3>
-            <p><b>Programming Language</b></p>
-            <div class="back">
-            HTML
-            <div class="Percent1">
-             <p class="pe">70%</p>
-            </div>
-            CSS
-            <div class="Percent2">
-             <p class="pe2">50%</p>
-            </div>
-            JS
-            <div class="Percent11">
-             <p class="pe2">25%</p>
-            </div>
-            </div>
-             <p><b>WEB Tools</b></p>
-             <div class="back">
-            Chat GPT
-            <div class="Percent3">
-             <p class="pe">80%</p>
-            </div>
-            YouTUBE
-            <div class="Percent4">
-             <p class="pe2">95%</p>
-            </div>
-            Visual Studio Code
-            <div class="Percent5">
-             <p class="pe2">90%</p>
-            </div>
-            Web Browser
-            <div class="Percent6">
-             <p class="pe2">100%</p>  
-            </div>
-            GitHub
-            <div class="Percent7">
-             <p class="pe2">60%</p>
-            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                    alt="Coding and Development">
             </div>
         </div>
-        </div>
-        <!-- Add more projects as needed -->
-        
     </section>
 
-    <section id="contact">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="design">Graphic Design</button>
+            <button class="filter-btn" data-filter="video">Video Editing</button>
+            <button class="filter-btn" data-filter="audio">Sound Engineering</button>
+        </div>
+        <div class="portfolio-grid">
+            <!-- Web Development Projects -->
+            <div class="project-card" data-category="web">
+                <img src="assets/piccc.webp" alt="Web Project" class="project-image">
+                <div class="project-info">
+                    <h3>Web Development</h3>
+                    <p>Modern and responsive websites built with the latest technologies.</p>
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <!-- Sound Engineering Projects -->
+            <div class="project-card" data-category="audio">
+                <img src="assets/pic.jpeg" alt="Sound Project" class="project-image">
+                <div class="project-info">
+                    <h3>Sound Engineering</h3>
+                    <p>Professional audio production and sound design services.</p>
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <div class="skill-item">
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="65"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="10"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">C#</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Sound Engineering</h3>
+                <div class="skill-item">
+                    <span class="skill-name">Mixing</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="50"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Setting</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Audio Editing</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="65"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Others</h3>
+                <div class="skill-item">
+                    <span class="skill-name">Graphic Design</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="50"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Video Editing</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="40"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <div class="cont">
-        <p>You can reach me at: <p>E-mail: abodeemmanuel0@email.com</p>
-        <p>WhatsApp: 09080388102</p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>abodeemmanuel0@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+234 908 038 8102</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+234 701 035 3904</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>5, Akinola Oyegbile Close, Ajayi Farm, Akute, Ogun State</p>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8!2d3.5!3d6.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzYnMDAuMCJOIDPCsDMwJzAwLjAiRQ!5e0!3m2!1sen!2sng!4v1234567890!5m2!1sen!2sng"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2023 Abode Emmanuel Oluwasemilore</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/abodeemmanuel" class="social-link" target="_blank"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abode-emmanuel" class="social-link" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/abs3_ent/" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/abs__tech/" class="social-link" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Abode Emmanuel. All rights reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
